@@ -1,12 +1,35 @@
-- 👋 Hi, I’m @Dheeraj7coder
-- 👀 I’m interested in Coding, Video Editing, Gaming, and Research.\
-- 🌱 I’m currently learning Python.
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me : EMAIL: Coming Soon
-- 😄 Pronouns: DJTHUNDERPRO, Dheeraj, etc
-- ⚡ Fun fact: I am 15 Years Old :) 
+**FAILURE IS THE MOTHER OF SUCCESS!**
 
-<!---
-Dheeraj7coder/Dheeraj7coder is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# 👋 Hey, I'm D.Dheeraj
+
+## 🧠 Class 11 Student | Aspiring Software Engineer | Future CSE-AIML Grad
+
+---
+
+### 💻 Who Am I?
+
+I'm a passionate and curious learner from India, currently in Class 11 and on a journey to master coding, crack JEE 2027, and build intelligent solutions with AI. I believe in daily improvement, creativity through tech, and blending logic with innovation.
+
+---
+
+### 🚀 What I’m Learning:
+
+- **Languages:** Python, Java, JavaScript, C++, C#, HTML, CSS
+- **Tools & Tech:** GitHub, Firebase, CapCut, Photoshop, Filmora, ChatGPT, VS Code
+- **Domains:** Web Development | AI/ML | DSA | Creative Tech
+
+---
+
+### 🎯 2025–2026 Goals:
+
+- 🧠 **Crack JEE 2027 with excellence**
+- 📈 **Improve problem-solving and critical thinking**
+- 🤖 **Build real-world projects using AI and development tools**
+
+---
+
+### 🛠️ Tech Stack
+
+Languages: Python, C++, Java, JavaScript, C#, HTML, CSS
+Tools: Git, Firebase, Photoshop, CapCut, Filmora, ChatGPT
+
