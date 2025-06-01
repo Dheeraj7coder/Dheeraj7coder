@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flame Form</title>
+  <style>
+    /* 🔥 Fire gradient background */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ff512f, #dd2476, #ff6a00);
+      background-size: 400% 400%;
+      animation: flameBg 10s ease infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    @keyframes flameBg {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    form {
+      background-color: #fff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 420px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* 👆 Hover effect on form */
+    form:hover {
+      transform: scale(1.03);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    }
+
+   h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: rainbow-glow 3s infinite linear;
+
+  /* 🔲 Black border effect */
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+
+    @keyframes rainbow-glow {
+      0% { text-shadow: 0 0 5px red; }
+      25% { text-shadow: 0 0 10px orange; }
+      50% { text-shadow: 0 0 10px yellow; }
+      75% { text-shadow: 0 0 10px green; }
+      100% { text-shadow: 0 0 5px violet; }
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.3s ease;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+      border-color: #ff5722;
+      outline: none;
+    }
+
+    p {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #d84315;
+    }
+
+    .radio-group {
+      margin-top: 10px;
+    }
+
+    .radio-group label {
+      font-weight: normal;
+      margin-right: 20px;
+      display: inline-block;
+      cursor: pointer;
+      color: #333;
+    }
+
+    .radio-group input[type="radio"] {
+      accent-color: #e65100;
+      transform: scale(1.2);
+      margin-right: 8px;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #ff3d00;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #ff6e40;
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h2>Flame Form</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" />
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" />
+
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" />
+
+    <p>Subscription Plans:</p>
+    <div class="radio-group">
+      <label><input type="radio" id="basic" name="plan" value="Basic" /> Basic</label>
+      <label><input type="radio" id="premium" name="plan" value="Premium" /> Premium</label>
+      <label><input type="radio" id="vip" name="plan" value="VIP" /> VIP</label>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
+<script>
+  // Optional: Add form submission handling
+  document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Form submitted successfully!');
+  });
